@@ -17,7 +17,6 @@ const Resume = () => {
           <a href=""><h1 className='uppercase text-center text-4xl font-bold'id='Resume'>Resume/CV</h1></a>
         </div>
 
-
 {/* Summary */}
       <div className='flex items-center justify-between flex-wrap gap-6 md:gap-96 mb-10'>
           <h1 className='text-2xl font-bold'>
@@ -27,7 +26,6 @@ const Resume = () => {
    <a href="/NiteshPortfolio/Fresher_Resume.pdf" download target="_blank" rel="noopener noreferrer">
   <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
     Download CV
-
       {/* Ping animation dot on top-right */}
       <span className='absolute -top-1 -right-1 h-3 w-3 animate-ping rounded-full  bg-sky-400 opacity-75'></span>
       <span className='absolute -top-1 -right-1 h-3 w-3 rounded-full bg-green-400'></span>
