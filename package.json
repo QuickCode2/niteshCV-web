@@ -1,6 +1,7 @@
 {
   "name": "niteshportfolio",
   "private": true,
+  "homepage": "https://quickcode2.github.io/NiteshPortfolio"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
