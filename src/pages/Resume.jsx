@@ -216,7 +216,7 @@ const Resume = () => {
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
                   <a className="text-lg font-semibold hover:underline"
-                    href="src/assets/Software Engineering_certificate.pdf" target="_blank" rel="noopener noreferrer">
+                    href="/Software Engineering_certificate.pdf" target="_blank" rel="noopener noreferrer">
                     Electronic Arts Forage</a>
                   <p className="text-base">
                     Certificate	of	Completion Over	the	period	of	July	2025,	has	completed	practical	tasks	in Software Engineering_.
@@ -229,7 +229,7 @@ const Resume = () => {
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
                   <a className="text-lg font-semibold hover:underline"
-                    href="src/assets/GenAI Powered Data Analytics 1751124230928.pdf" target="_blank" rel="noopener noreferrer">
+                    href="/GenAI Powered Data Analytics 1751124230928.pdf" target="_blank" rel="noopener noreferrer">
                      Data Analytics TATA Forage</a>
                   <p className="text-base">
                     Certificate of Completion Over the period of June 2025, Nitesh Prajapati has completed practical tasks GenAI Powered Data Analytics.
@@ -242,7 +242,7 @@ const Resume = () => {
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
                   <a className="text-lg font-semibold hover:underline"
-                    href="src/assets/Edureka - Internship Certificate.pdf" target="_blank" rel="noopener noreferrer">
+                    href="/Edureka - Internship Certificate.pdf" target="_blank" rel="noopener noreferrer">
                     Edureka!</a>
                   <p className="text-base">
                     Completed Demo Session Full Stack Development Internship Program from Edureka.
