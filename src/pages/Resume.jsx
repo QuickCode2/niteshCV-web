@@ -25,7 +25,7 @@ const Resume = () => {
             Summary<mark className='text-green-600 bg-transparent'>*</mark>
           </h1>
         <div className='relative inline-flex items-center'>
-          <a href="src/assets/Fresher_Resume.pdf" >
+          <a href="/Fresher_Resume.pdf" >
             <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
               Download CV
 
