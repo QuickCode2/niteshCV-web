@@ -24,9 +24,9 @@ const Resume = () => {
             Summary<mark className='text-green-600 bg-transparent'>*</mark>
           </h1>
         <div className='relative inline-flex items-center'>
-        <a href="/Fresher_Resume.pdf" download target="_blank" rel="noopener noreferrer">
-    <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
-      Download CV
+   <a href="/NiteshPortfolio/Fresher_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+  <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
+    Download CV
 
       {/* Ping animation dot on top-right */}
       <span className='absolute -top-1 -right-1 h-3 w-3 animate-ping rounded-full  bg-sky-400 opacity-75'></span>
