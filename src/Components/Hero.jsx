@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import profileImg from "../assets/Nitesh.jpg";
+import profileImg from "../Nitesh.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
