@@ -176,9 +176,9 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]'/>
                 <div>
-                  <a href="/NiteshPortfolio/web-development.pdf" target="_blank" rel="noopener noreferrer">
-                  STP Computer Education
-                  </a>
+                   <a className="text-lg font-semibold hover:underline"
+                    href="/web development.pdf"target="_blank"rel="noopener noreferrer">
+                    STP Computer Education</a>
                   <p className="text-base">
                     Certifications of 12 months duration from STP COMPUTER EDUCATION (March 2024 – March 2025)
                   </p>
@@ -189,9 +189,9 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
-                  <a href="/NiteshPortfolio/Intern-certificate.pdf" target="_blank" rel="noopener noreferrer">
-                    Unified Mentor
-                  </a>
+                   <a className="text-lg font-semibold hover:underline"
+                    href="/Intern-certificate.pdf" target="_blank" rel="noopener noreferrer">
+                    Unified Mentor</a>
                   <p className="text-base">
                     Completed 1 Month Intern Certification in Full Stack Development from Unified Mentor.
                   </p>
@@ -202,9 +202,9 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
-                  <a href="/NiteshPortfolio/Experience-Letter.pdf" target="_blank" rel="noopener noreferrer">
-                  InlighnTech
-                </a>
+               <a className="text-lg font-semibold hover:underline"
+                    href="/Experience Letter.pdf" target="_blank" rel="noopener noreferrer">
+                    InlighnTec </a>
                   <p className="text-base">
                     Completed 2 Month Internship Certification in Full Stack Development from InlighnTech.
                   </p>
