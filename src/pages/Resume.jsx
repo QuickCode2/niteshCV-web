@@ -14,7 +14,7 @@ const Resume = () => {
 {/* Header */}
         <div className='flex items-center justify-center py-20 gap-4'>
           <div className='w-8 h-8 bg-blue-500 rounded-full text-center'></div>
-          <a href=""><h1 className='uppercase text-center text-4xl font-bold'id='Resume'>Resume/CV</h1></a>
+          <h1 className='uppercase text-center text-4xl font-bold'>Resume/CV</h1>
         </div>
 
 {/* Summary */}
@@ -23,7 +23,7 @@ const Resume = () => {
             Summary<mark className='text-green-600 bg-transparent'>*</mark>
           </h1>
         <div className='relative inline-flex items-center'>
-   <a href="/NiteshPortfolio/Fresher_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+   <a href="/Fresher_Resume.pdf" target="_blank" rel="noopener noreferrer">
   <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
     Download CV
       {/* Ping animation dot on top-right */}
