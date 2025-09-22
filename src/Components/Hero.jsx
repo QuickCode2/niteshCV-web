@@ -20,7 +20,7 @@ const Hero = () => {
             {/* Left side profile */}
             <div className='w-full md:w-[40%] bg-[#e6dace] shadow-2xl shadow-blue-500'>
               <div className='flex flex-col items-center mx-auto p-12'>
-               <img className="w-40 h-40 object-cover rounded-full" src={profileImg} alt="Nitesh Prajapati" />
+               <img className="w-40 h-40 object-cover rounded-full" src="/Nitesh.jpg"  alt="Nitesh Prajapati" />
                 <h1 className='text-xl sm:text-2xl font-bold mt-6 mb-6 text-center'>Nitesh <br /> Prajapati</h1>
                 <div className='border-t-2 border-t-blue-500 w-16 mb-6'></div>
                 <p className='uppercase mb-6 font-serif text-red-900'>Project Manager</p>
