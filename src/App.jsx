@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,  HashRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
@@ -14,6 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <BrowserRouter>
+         <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<About />} />
@@ -23,6 +24,7 @@ const App = () => {
           </Routes>
           <ToastContainer />
           <Footer />
+          </HashRouter>
     </BrowserRouter>
   );
 };
