@@ -27,7 +27,7 @@ const Resume = () => {
         <div className='relative inline-flex items-center'>
           <Link to="/Fresher_Resume.pdf">
             <button className='relative px-6 md:px-10 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-blue-700 transition'>
-              Download CV  </button>
+              Download CV 
           </Link>
 
       {/* Ping animation dot on top-right */}
