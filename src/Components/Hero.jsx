@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import profileImg from "../assets/Nitesh.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -47,18 +48,19 @@ const Hero = () => {
               <h1 className='text-2xl sm:text-2xl md:text-4xl lg:text-8xl font-bold mb-8'>Nitesh Prajapati</h1>
               <p className='text-md md:text-2xl mb-6 font-semibold motion-safe:animate-bounce'>Here's who I am & what I do</p>
 
-              <div className='w-full flex flex-wrap justify-center md:justify-start gap-4'>
-                <a href="/Resume">
-                  <button className='uppercase px-8 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-white hover:text-black hover:border hover:border-gray-700'>
-                    Resume
-                  </button>
-                </a>
-                <a href="/Projects">
-                  <button className='uppercase px-8 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-white hover:text-black hover:border hover:border-gray-700'>
-                    Projects
-                  </button>
-                </a>
-              </div>
+        <div className="w-full flex flex-wrap justify-center md:justify-start gap-4">
+          <Link to="/Resume">
+          <button className="uppercase px-8 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-white hover:text-black hover:border hover:border-gray-700">
+          Resume
+          </button>
+          </Link>
+
+        <Link to="/Projects">
+        <button className="uppercase px-8 py-2 bg-blue-500 text-white rounded-full cursor-pointer hover:bg-white hover:text-black hover:border hover:border-gray-700">
+        Projects
+        </button>
+        </Link>
+      </div>
 
               <p className='mt-12  text-md'>
                 Hello I'M Nitesh Prajapati, a detail-oriented Project manager who's passionate about turning ideas into action.
