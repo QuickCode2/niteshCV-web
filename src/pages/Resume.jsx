@@ -176,7 +176,7 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]'/>
                 <div>
-                  <a href="/web-development.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/NiteshPortfolio/web-development.pdf" target="_blank" rel="noopener noreferrer">
                   STP Computer Education
                   </a>
                   <p className="text-base">
@@ -189,7 +189,7 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
-                  <a href="/Intern-certificate.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/NiteshPortfolio/Intern-certificate.pdf" target="_blank" rel="noopener noreferrer">
                     Unified Mentor
                   </a>
                   <p className="text-base">
@@ -202,7 +202,7 @@ const Resume = () => {
               <div className='flex items-start space-x-3 mb-10'>
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]' />
                 <div>
-                  <a href="/Experience-Letter.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/NiteshPortfolio/Experience-Letter.pdf" target="_blank" rel="noopener noreferrer">
                   InlighnTech
                 </a>
                   <p className="text-base">
