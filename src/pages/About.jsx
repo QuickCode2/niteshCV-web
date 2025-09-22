@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../Components/Hero' 
 import { motion } from 'framer-motion'
-import {  Routes, Route } from "react-router-dom";
+
 const About = () => {
   return (
     <motion.div
