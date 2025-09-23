@@ -33,9 +33,8 @@ const Contact = () => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      onViewportLeave={{ once: true }}
       className="flex justify-center items-center py-40 px-4 bg-[#e6dace]" id="Contact">
       <div className="w-full max-w-3xl text-center">
       

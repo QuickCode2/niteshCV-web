@@ -14,7 +14,6 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <BrowserRouter>
-         <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<About />} />
@@ -24,7 +23,6 @@ const App = () => {
           </Routes>
           <ToastContainer />
           <Footer />
-          </HashRouter>
     </BrowserRouter>
   );
 };

@@ -4,13 +4,12 @@ import { motion } from 'framer-motion'
 
 const Resume = () => {
   return (
-    <div className='grid grid-cols-1 w-full min-h-screen bg-[#e6dace] mt-20'>
-      <motion.div className='max-w-6xl mx-auto px-8 mb-10'
-        initial={{ opacity: 0, y:100 }}
-       transition={{ duration: 1.5 }}
-       whileInView={{ opacity: 1, y:0 }}
-       onViewportLeave={{ once:true }}
-      >
+  <div className='grid grid-cols-1 w-full min-h-screen bg-[#e6dace] mt-20'>
+    <motion.div className='max-w-6xl mx-auto px-8 mb-10'
+     initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.5 }}
+    >
 {/* Header */}
         <div className='flex items-center justify-center py-20 gap-4'>
           <div className='w-8 h-8 bg-blue-500 rounded-full text-center'></div>
@@ -174,7 +173,7 @@ const Resume = () => {
                 <FaLink className='mt-2 shrink-0 text-[#1a0dab]'/>
                 <div>
                    <a className="text-lg font-semibold hover:underline"
-                    href="/web development.pdf"target="_blank"rel="noopener noreferrer">
+                    href="/web development.pdf" target="_blank"rel="noopener noreferrer">
                     STP Computer Education</a>
                   <p className="text-base">
                     Certifications of 12 months duration from STP COMPUTER EDUCATION (March 2024 – March 2025)

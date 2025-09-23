@@ -24,10 +24,9 @@ const projectDatas = [
 const Projects = () => {
   return (
    <motion.div
-         initial={{ opacity: 0, y:100 }}
-         transition={{ duration: 1.5 }}
-         whileInView={{ opacity: 1, y:0 }}
-         onViewportLeave={{ once:true }}
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.5 }}
     className='min-h-screen bg-[#e6dace] pb-30'>
       <div className='max-w-5xl mx-auto px-4'>
         <div className='flex items-center justify-center gap-4 pb-20 pt-40'>
