@@ -14,7 +14,7 @@ const Hero = () => {
       <div className='absolute top-0 left-0 h-full md:h-[110%] w-full md:w-[32%] bg-[#e6dace]'></div>
 
       {/* Main content container */}
-      <div className='relative max-w-5xl mx-auto w-full px-4 py-20 md:py-32 pb-32'>
+      <div className='relative max-w-5xl mx-auto w-full px-4 py-20 md:py-32 pb-32 mt-16'>
         <div className='flex flex-col md:flex-row gap-12'>
 
           {/* Left profile section */}
