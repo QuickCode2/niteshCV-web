@@ -49,7 +49,7 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row items-center gap-12 mt-12'>
           <div className='text-center'>
             <p className='font-bold mb-2'>Call</p>
-            <p className='font-serif'>91+ 8905093477</p>
+            <p className='font-serif'>91+ 8905****77</p>
           </div>
 
           <div className='text-center'>
